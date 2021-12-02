@@ -1,0 +1,411 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color:rgb(22, 20, 17);
+}
+
+.container-index {
+  max-width: 1850px;
+  margin: 0;
+  background: rgb(245, 225, 171);
+  font-size: 24px;
+}
+
+.container-page-1 {
+  max-width: 1850px;
+  margin: 0;
+  background: rgb(245, 225, 171);
+  font-size: 24px;
+}
+
+.container-page-2 {
+  max-width: 1850px;
+  margin: 0;
+  background:rgb(245, 225, 171);
+  font-size: 24px;
+}
+
+.container-page-3 {
+  max-width: 1850px;
+  margin: 0;
+  background: rgb(245, 225, 171);
+  font-size: 24px;
+}
+
+.parallax-index-start {
+  background: url('Pictures/parallax.image.png')
+    no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px;
+}
+
+.parallax-index-end {
+  background: url('Pictures/ron-lach.jpg')
+    no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 750px;
+}
+
+.parallax-page-1-top {
+  background: url("Pictures/kelly-l-trade.jpg")
+    no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+.parallax-page-1-middle {
+  background: url("Pictures/tom-fisk-port.jpg")
+    no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.parallax-page-2-top {
+  background: url("Pictures/luciann-ecologies.jpg")
+    no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.parallax-page-2-middle {
+  background: url("Pictures/francesco-ungaro-coral-reef.jpg")
+    no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px;
+}
+
+.parallax-page-3-top {
+  background: url("Pictures/tom-fisk-polluters.jpg")
+    no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+
+
+}
+
+.parallax-page-3-middle {
+  background: url("Pictures/tom-fisk-pollution.jpg")
+    no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+
+.section-container {
+  background-color: rgb(245, 225, 171);
+  font-size: 20px;  background-size: cover;
+  height: 450px;
+  width: 100%;
+  display: flex;
+  flex: row;
+}
+
+.text-container-bottom{
+  flex:1;
+  margin:20px;
+  padding:50px;
+  width:48%;
+  background-color:rgb(245, 225, 171);
+  height:600px;
+  border-radius: 8px;
+  font-size: 21px;
+}
+
+.bottom-picture-container {
+  flex:1;
+  object-fit: cover;
+  height: 20%;
+  width: 30%;
+  padding:80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+}
+
+.bottom-image {
+  size:80%;
+
+}
+
+.text-container {
+  flex: 1;
+}
+
+.text-content {
+  margin:60px;
+}
+
+.picture-container {
+  flex: 1;
+}
+
+.pictures {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.section-texts {
+  color: rgb(27, 34, 27);
+  font-size: 21px;
+  margin: 0pxl
+}
+
+.button-submit {
+  margin:20px;
+  margin-left:0px;
+  display: inline-flex;
+  align-items: center;
+  height: 60px;
+  background: rgb(231, 202, 147);
+  border-color: black;
+  outline: none;
+  border-radius: 2px;
+  overflow: hidden;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.button-submit-text{
+  color:black;
+  padding: 11px 34px;
+}
+
+.button-submit:hover{
+  background: rgb(211, 179, 121);
+}
+
+.button-back {
+  display: inline-flex;
+  height: 50px;
+  background: rgb(231, 202, 147);
+  margin-left:50px;
+  margin-bottom:10px;
+  border-radius: 2px;
+  overflow: hidden;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+  align-items: center;
+  height: 60px;
+  border-color: black;
+}
+
+.button-back:hover {
+  background: rgb(211, 179, 121);
+}
+
+.button-back-text,
+.button-icon {
+  display: inline-flex;
+  align-items: center;
+  color:black;
+  height: 100%;
+}
+
+.button-icon {
+  font-size: 1.5em;
+}
+
+.button-more {
+  display: inline-flex;
+  align-items: center;
+  height: 60px;
+  background: rgb(231, 202, 147);
+  border-color: black;
+  outline: none;
+  border-radius: 2px;
+  overflow: hidden;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.button-more:hover{
+  background: rgb(211, 179, 121);
+}
+
+.button-more-text{
+  color:black;
+  padding: 11px 34px;
+}
+
+h1 {
+  color: rgb(31, 27, 25);
+  font-size: 55px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom:15px;
+  margin: 0px;
+}
+
+h2 {
+  color: rgb(245, 225, 171);
+  font-size: 40px;
+  text-align: center;
+  margin:0px;
+  padding-top:15px;
+  padding-bottom:15px; 
+}
+
+.subtitle {
+  color: rgb(31, 27, 25);
+  font-size: 40px;
+  text-align: center;
+  margin:0px;
+  padding-top:0px;
+  padding-bottom:50px; 
+}
+
+.bottom-container{
+  margin:0px; 
+  display: flex;
+  align-items:center;
+}
+ 
+h3 {
+  font-size:250%;
+  margin:0px;
+  padding:35px;
+  color:rgb(238, 206, 118);
+  background-color: rgb(22, 20, 17);
+  text-align: center;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+.power {
+  font-size: xx-large;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-bar{
+  margin:30px;
+}
+
+.nav li {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li a:link {
+  color: rgb(255, 243, 205);
+  font-size: 26px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+li a:visited {
+  color: rgb(251, 226, 151);
+  font-size: 26px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: rgb(179, 122, 58);
+  font-size: 27px;
+  text-decoration: none;
+}
+
+.pages-body-container {
+  margin: 0px;
+  padding-left:55px;
+  padding-right:55px;
+  padding-top:30px;
+  padding-bottom:30px;
+  background-color: wheat;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titles {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:xx-large;
+  font-weight: 550;
+  text-align: center;
+  margin-left:70px;
+  margin-right:70px;
+  margin-top:20px;
+  margin-bottom: 15px;
+}
+
+.texts {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top:30px;
+  margin-bottom: 60px;
+  margin-left:50px;
+  margin-right:50px;
+  line-height: 1.6;
+}
+
+a {
+  color:black;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.copy{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:black;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 50px;
+  margin-bottom:50px;
+  margin-top:0px;
+}
+
+.details {
+  padding-top:2px;
+}
